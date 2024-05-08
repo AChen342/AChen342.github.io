@@ -14604,12 +14604,14 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Andrew Chen: 95% (Didn't contribute much to final section)</p>
-<p>Nabeel Haider:</p>
-<p>Lap Wu:</p>
+<p>Andrew Chen: 95%</p>
+<p>Nabeel Haider: 80%</p>
+<p>Lap Wu: 85%</p>
 <p>"We, all team members, agree together that the above information is true, and we are confident about our contributions to this submitted project/final tutorial."</p>
 <p>Signed by,</p>
 <p>Andrew Chen</p>
+<p>Lap Wu</p>
+<p>Nabeel Haider</p>
 
 </div>
 </div>
@@ -14623,6 +14625,32 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Andrew Chen's Contribution</strong></p>
 <p>I worked on the introduction, letting our audience know what this data analysis is about along with listing the sources that we used. In the data curation section I helped cleaned up the data by removing irrelevant data and also created new columns such as age group. For the exploratory anaylsis section, I analyzed the dataset by looking at the distribution of revenue sorted by age group. I also helped come up with the null hypothesis and alternative hypothesis during our hypothesis testing subsection. In each part, I also helped with creating the visuals by trying to make them look presentable using mathplotlib. As for the machine learning section, I worked on training the three ML models and also printed out the classification report for each one. I also helped with creating the confusion matrix and interpreting it. Finally I helped with finding the coefficients for the logistic regression and finding the most significant feature.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><strong>Lap Wu's Contribution</strong></p>
+<p>For the data, I worked on reviewing and double checking if we are using the right data and helped creating new columns. For data exploration I created graphs for subscription types vs age groups. I also help with cleaning up some data for ML. Lastly, I also worked on the conclusion and summarizing our finding.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><strong>Nabeel Haider's Contribution</strong>
+I postulated using the Netflix data and explored the other project ideas with both Andrew and Lap. I found the correlation between the different age groups for each subscription type and created a visualization for the correlation to analyze the results. After analyzing the classification report of the different models we tested on the data, which are: KNN, logistical regression, and random forest, I summarized the report and findings.</p>
 
 </div>
 </div>
@@ -14674,7 +14702,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <p>Well, one of the reasons why we choose this dataset over any other dataset that deals with Netflix's user base is because it has a fairly large amount of data that can be used for analysis. We believe that is contains enough data for use to find correlations within our variables. With this dataset, we have a lot of different opportunities to analyze it.</p>
 <p>With that being said, for this specific data anaylze, we as a group are really interested in the demographic of the Netflix user base. Out of all the features of the dataset, we want to analyze the relationship between the demographic of Netflix users and their likelihood in choosing a certain subscription plan. We want to know if variables such as age is more likely to stick with a Netflix subscription plan compared to other variables.</p>
 <p>The main question we want to delve into throughout this data analysis is,</p>
-<p><strong><em>Which demographic is more likely to opt into Netflix's monthly subscription system?</em></strong></p>
+<p><strong><em>Which demographic is more likely to opt into Netflix's more expensive monthly subscription system?</em></strong></p>
 <p>By the end of this data analysis, we hope to answer this main question and to make a report of all our findings.</p>
 
 </div>
@@ -14709,7 +14737,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[434]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[575]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -14752,7 +14780,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[435]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[576]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">netflix_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"Netflix Userbase.csv"</span><span class="p">)</span>
@@ -14783,7 +14811,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[436]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[577]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#need to specifiy format because default format doesn't fit</span>
@@ -14813,7 +14841,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[437]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[578]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Dropping irrelevant columns</span>
@@ -14842,7 +14870,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[438]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[579]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Calculating user subscription length</span>
@@ -14872,7 +14900,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[439]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[580]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#calculate total revenue for each individuals based on Subscription Length</span>
@@ -14919,7 +14947,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[440]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[581]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">age_groups_str</span> <span class="o">=</span> <span class="p">[</span>
@@ -14956,7 +14984,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[441]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[582]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># For Gender</span>
@@ -14997,7 +15025,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[442]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[583]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">netflix_df</span>
@@ -15018,13 +15046,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[442]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[583]:</div>
 
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 
-  <div id="df-d19ba69f-7b9f-42a6-8af2-0aa0d0ce992a" class="colab-df-container">
+  <div id="df-ca038821-e1c7-40ac-b401-6d4a2e468133" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -15338,7 +15366,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-d19ba69f-7b9f-42a6-8af2-0aa0d0ce992a')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-ca038821-e1c7-40ac-b401-6d4a2e468133')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -15390,12 +15418,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
     <script>
       const buttonEl =
-        document.querySelector('#df-d19ba69f-7b9f-42a6-8af2-0aa0d0ce992a button.colab-df-convert');
+        document.querySelector('#df-ca038821-e1c7-40ac-b401-6d4a2e468133 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-d19ba69f-7b9f-42a6-8af2-0aa0d0ce992a');
+        const element = document.querySelector('#df-ca038821-e1c7-40ac-b401-6d4a2e468133');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -15415,8 +15443,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   </div>
 
 
-<div id="df-b3f27256-e2a2-43b7-bd2a-c1b98a3a063f">
-  <button class="colab-df-quickchart" onclick="quickchart('df-b3f27256-e2a2-43b7-bd2a-c1b98a3a063f')"
+<div id="df-3a935bcb-0788-4ad0-bee7-247f32c92756">
+  <button class="colab-df-quickchart" onclick="quickchart('df-3a935bcb-0788-4ad0-bee7-247f32c92756')"
             title="Suggest charts"
             style="display:none;">
 
@@ -15535,7 +15563,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-b3f27256-e2a2-43b7-bd2a-c1b98a3a063f button');
+        document.querySelector('#df-3a935bcb-0788-4ad0-bee7-247f32c92756 button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -15579,7 +15607,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[443]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[584]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Mean, Max, min, standard deviation, number of bins</span>
@@ -15678,7 +15706,7 @@ Standard Deviation:  7.1703431326541125
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[444]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[585]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Creating a boxplot</span>
@@ -15706,7 +15734,7 @@ Standard Deviation:  7.1703431326541125
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[444]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[585]:</div>
 
 
 
@@ -15768,7 +15796,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[445]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[586]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Counting number of users within each age group</span>
@@ -15857,7 +15885,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[446]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[587]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">monthly_revenues</span> <span class="o">=</span> <span class="p">[]</span>
@@ -15957,7 +15985,7 @@ Total User Revenue: $321,674.55
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[447]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[588]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">'revenues'</span><span class="p">:</span> <span class="n">monthly_revenues</span><span class="p">},</span> <span class="n">index</span><span class="o">=</span><span class="n">age_groups_str</span><span class="p">)</span>
@@ -15982,7 +16010,7 @@ Total User Revenue: $321,674.55
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[447]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[588]:</div>
 
 
 
@@ -16091,7 +16119,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[448]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[589]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">contingency_table</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">crosstab</span><span class="p">(</span><span class="n">netflix_df</span><span class="p">[</span><span class="s1">'Age Group'</span><span class="p">],</span> <span class="n">netflix_df</span><span class="p">[</span><span class="s1">'Subscription Type'</span><span class="p">])</span>
@@ -16113,13 +16141,13 @@ class="
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[448]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[589]:</div>
 
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
 
-  <div id="df-ed68be30-e3e5-4fed-9fc8-a38da75d85c2" class="colab-df-container">
+  <div id="df-409050a5-0cda-4a8c-898e-e679f0b73e5f" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -16192,7 +16220,7 @@ class="
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-ed68be30-e3e5-4fed-9fc8-a38da75d85c2')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-409050a5-0cda-4a8c-898e-e679f0b73e5f')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -16244,12 +16272,12 @@ class="
 
     <script>
       const buttonEl =
-        document.querySelector('#df-ed68be30-e3e5-4fed-9fc8-a38da75d85c2 button.colab-df-convert');
+        document.querySelector('#df-409050a5-0cda-4a8c-898e-e679f0b73e5f button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-ed68be30-e3e5-4fed-9fc8-a38da75d85c2');
+        const element = document.querySelector('#df-409050a5-0cda-4a8c-898e-e679f0b73e5f');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -16269,8 +16297,8 @@ class="
   </div>
 
 
-<div id="df-d321c896-3e8c-4cf5-ae77-4aaafe9c845a">
-  <button class="colab-df-quickchart" onclick="quickchart('df-d321c896-3e8c-4cf5-ae77-4aaafe9c845a')"
+<div id="df-b15e1e3c-bc17-4a58-9c66-a08b32c0588c">
+  <button class="colab-df-quickchart" onclick="quickchart('df-b15e1e3c-bc17-4a58-9c66-a08b32c0588c')"
             title="Suggest charts"
             style="display:none;">
 
@@ -16389,7 +16417,7 @@ class="
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-d321c896-3e8c-4cf5-ae77-4aaafe9c845a button');
+        document.querySelector('#df-b15e1e3c-bc17-4a58-9c66-a08b32c0588c button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -16427,7 +16455,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[449]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[590]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">res</span> <span class="o">=</span> <span class="n">chi2_contingency</span><span class="p">(</span><span class="n">contingency_table</span><span class="p">)</span>
@@ -16449,7 +16477,7 @@ class="
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[449]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[590]:</div>
 
 
 
@@ -16481,7 +16509,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[450]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[591]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
@@ -16507,13 +16535,13 @@ class="
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[450]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[591]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&lt;matplotlib.legend.Legend at 0x7959d31b1fc0&gt;</pre>
+<pre>&lt;matplotlib.legend.Legend at 0x7959d11501f0&gt;</pre>
 </div>
 
 </div>
@@ -16556,7 +16584,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[451]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[592]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">age_range_mapping</span> <span class="o">=</span> <span class="p">{</span>
@@ -16719,7 +16747,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[452]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[593]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">age_range_mapping</span> <span class="o">=</span> <span class="p">{</span>
@@ -16930,7 +16958,7 @@ These models are the K-nearest Neighbors model, Random Forest Model, and Logisit
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[453]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[594]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Here are our three models</span>
@@ -16972,7 +17000,7 @@ These models are the K-nearest Neighbors model, Random Forest Model, and Logisit
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[454]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[595]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># In order to have our results be consistent, we will use a set seed of 6</span>
@@ -17002,7 +17030,7 @@ These models are the K-nearest Neighbors model, Random Forest Model, and Logisit
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[455]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[596]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">scaler</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
@@ -17033,7 +17061,7 @@ These models are the K-nearest Neighbors model, Random Forest Model, and Logisit
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[456]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[597]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="k">for</span> <span class="n">model_name</span><span class="p">,</span> <span class="n">model</span> <span class="ow">in</span> <span class="n">netflix_models</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
@@ -17062,7 +17090,7 @@ These models are the K-nearest Neighbors model, Random Forest Model, and Logisit
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[457]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[598]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">x_test_scaled</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
@@ -17107,16 +17135,16 @@ These models are the K-nearest Neighbors model, Random Forest Model, and Logisit
 weighted avg       0.62      0.61      0.60       750
 
 ----------------------------------------------------------------------------------------------------
-Accuracy of Netflix Random Forest: 0.5826666666666667
+Accuracy of Netflix Random Forest: 0.5786666666666667
               precision    recall  f1-score   support
 
-       Basic       0.61      0.64      0.62       304
-     Premium       0.46      0.49      0.48       219
-    Standard       0.69      0.59      0.64       227
+       Basic       0.60      0.64      0.62       304
+     Premium       0.46      0.46      0.46       219
+    Standard       0.66      0.60      0.63       227
 
     accuracy                           0.58       750
-   macro avg       0.58      0.58      0.58       750
-weighted avg       0.59      0.58      0.58       750
+   macro avg       0.58      0.57      0.57       750
+weighted avg       0.58      0.58      0.58       750
 
 ----------------------------------------------------------------------------------------------------
 Accuracy of Netflix Logisitic Regression: 0.6533333333333333
@@ -17158,8 +17186,8 @@ weighted avg       0.71      0.65      0.65       750
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>We used the KNN, Random Forest, and the Logistic Regression Models to ultimately see which Machine Learning model best suited the Netflix data.</p>
-<p>The KNN Model, or the K-Nearest-Neighbors Model, has an accuracy of 0.61467. The KNN Model performed the best for the Basic subscription. Given an average f1 score of 61, this model performs reasonably well.</p>
-<p>The Random Forest Model has an accuracy of 0.556 and the performance seems relatiely more consistent with each of the subscription types. Given the f1 Score of 55, the Random Forest Model performs worse than the KNN Model, but would be considered an ok performance.</p>
+<p>The KNN Model, or the K-Nearest-Neighbors Model, has an accuracy of 0.6067. The KNN Model performed the best for the Basic subscription. Given an average f1 score of 60, this model performs reasonably well.</p>
+<p>The Random Forest Model has an accuracy of 0.5773 and the performance seems relatiely more consistent with each of the subscription types. Given the f1 Score of 57, the Random Forest Model performs worse than the KNN Model, but would be considered an ok performance.</p>
 <p>Lastly, the Logistic Regression is the most accurate Machine Learning Model with an accuracy of 0.6533. The model performed moderately well for the Premium and Basic subscription types and exceptionally well for the standard subscription type. It's interesting to see that the Standard subscription type has a precision of 0.98, which is practically ideal. Furthermore, the f1 score of the Logistic Regression is the greatest of the three, which shows that it performs well across the board with all of the different classes or subscription types.</p>
 <p>Among the three machine learning models, the Logistic regression performs the best.</p>
 
@@ -17206,7 +17234,7 @@ weighted avg       0.71      0.65      0.65       750
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[458]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[599]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">conf_matrix</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
@@ -17299,7 +17327,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[459]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[600]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">coefficients</span> <span class="o">=</span> <span class="n">netflix_models</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"Netflix Logisitic Regression"</span><span class="p">)</span><span class="o">.</span><span class="n">coef_</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -17395,7 +17423,7 @@ Coefficient: -0.06761370138309171
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[460]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[601]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">most_significant_feature_index</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">coefficients</span><span class="p">)),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">i</span><span class="p">:</span> <span class="nb">abs</span><span class="p">(</span><span class="n">coefficients</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
@@ -17464,26 +17492,18 @@ Coefficient: 0.5670274424359272
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Based on the above models and analysis:</p>
+<ul>
+<li>The older population are more likely to buy subscriptions that are less expensive.</li>
+<li>The three country with customers most likly to purchase more expensive subscriptions are: Italy, Germany, and Brazil.</li>
+<li>The customers in Spain, Australia, and United Kingdom are least likely to purchase more expensive subscriptions.</li>
+</ul>
+<p>From these analysis, we can conclude the demography most likely to purchase the more expensive subscription are the younger customers from Italy, Germany, or Brazil.</p>
+<p>If we are to expand our topic further, our next goal would be analyzing the total and monthly revenue for the demography and how they change over time. These analysis would give insight into the change of Netflix's popularity and revenue in different demographic.</p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span><span class="c1"># Remove this part after creating html</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 </body>
 
